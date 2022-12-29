@@ -21,6 +21,7 @@ con <- dbConnect(RPostgres::Postgres(),
 
 
 
+
 con_vszp <- dbConnect(RPostgres::Postgres(),
                       dbname = "vszp",
                       host = "re-charge.sk",
