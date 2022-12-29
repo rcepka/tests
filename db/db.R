@@ -33,6 +33,7 @@ dbListTables(con_vszp)
 
 
 
+
 con_socpoist <- dbConnect(RPostgres::Postgres(),
                           dbname = "socpoist",
                           host = "re-charge.sk",
