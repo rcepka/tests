@@ -89,3 +89,6 @@ con_ruz <- dbConnect(RPostgres::Postgres(),
 dbListTables(con_ruz)
 
 
+
+
+
