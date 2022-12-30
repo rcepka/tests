@@ -46,6 +46,12 @@ con_socpoist <- dbConnect(RPostgres::Postgres(),
 dbListTables(con_socpoist)
 
 
+vszp.debtors <- tbl(con_vszp, "debtors")
+socpoist.debtors <- tbl(con_socpoist, "debtors")
+
+
+
+
 
 
 con_rpo <- dbConnect(RPostgres::Postgres(),
